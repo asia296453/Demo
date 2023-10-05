@@ -10,8 +10,10 @@ sap.ui.define([
         return Controller.extend("demo.controller.View1", {
             onInit: function () {
 
+
             },
             onButtonPress: function(oEvent) {
+                //test
                 var oButton = oEvent.getSource();
                 this.byId("actionSheet").openBy(oButton);
             }
